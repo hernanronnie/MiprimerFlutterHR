@@ -66,24 +66,27 @@ class _PerfilPageState extends State<PerfilPage> {
             children: [
 
               // Icono principal
+              // Foto de perfil
               Container(
-                width: 120,
-                height: 120,
+                width: 130,
+                height: 130,
                 decoration: BoxDecoration(
-                  color: Colors.indigo,
                   shape: BoxShape.circle,
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withValues(alpha: 0.15),
+                      color: Colors.black.withValues(alpha: 0.20),
                       blurRadius: 10,
                       offset: const Offset(0, 5),
                     ),
                   ],
                 ),
-                child: const Icon(
-                  Icons.person,
-                  size: 70,
-                  color: Colors.white,
+                child: ClipOval(
+                  child: Image.asset(
+                    'assets/perfil.jpg',
+                    width: 130,
+                    height: 130,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
 
