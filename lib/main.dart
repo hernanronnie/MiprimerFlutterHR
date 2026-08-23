@@ -294,7 +294,7 @@ class _PerfilPageState extends State<PerfilPage> {
               const SizedBox(height: 5),
 
               Text(
-                'Autor: Hernán Ronquillo Y.',
+                'Autor: Hernán Ronnie Ronquillo Yanchapanta',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.poppins(
                   fontSize: 13,
