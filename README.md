@@ -66,3 +66,102 @@ Para ejecutar este proyecto se requiere tener instalado:
 
 También se recomienda verificar la instalación de Flutter utilizando:
 bash> flutter doctor
+
+# Actividad Integradora 2
+
+## Descripción
+
+Para la Actividad Integradora 2 se continuó trabajando sobre la aplicación desarrollada en la Actividad Integradora 1.
+
+La aplicación "Mi Perfil" fue ampliada incorporando nuevas pantallas, navegación, nuevos widgets, interacciones, manejo de estado mediante `setState()`, un nuevo paquete externo y una mejor organización del código.
+
+El objetivo fue evolucionar la aplicación inicial hacia una aplicación con una estructura más organizada y con mayor interacción con el usuario.
+Nuevas funcionalidades implementadas
+
+# En esta segunda actividad se incorporaron las siguientes funcionalidades:
+
+- Cuatro pantallas independientes.
+- Navegación entre pantallas mediante `Navigator`.
+- Organización del código mediante carpetas.
+- Listado de habilidades.
+- Sistema de favoritos.
+- Cambio dinámico de información mediante `setState()`.
+- Mensajes mediante `SnackBar`.
+- Ventana de información mediante `AlertDialog`.
+- Botones de navegación.
+- Botón flotante.
+- Opciones de contacto.
+- Incorporación del paquete `url_launcher`.
+- Uso de nuevos widgets de Flutter.
+
+#Pantallas desarrolladas
+
+## 1. Pantalla de Inicio
+La pantalla principal presenta el perfil de Hernán Ronquillo.
+Incluye:
+- Fotografía.
+- Nombre.
+- Carrera.
+- Descripción.
+- Botones para navegar a las demás pantallas.
+
+---
+
+## 2. Pantalla Mi Perfil
+Presenta información personal y académica.
+Se utiliza:
+
+- `CircleAvatar`
+- `Card`
+- `ListTile`
+- `Divider`
+- `Icon`
+- `ElevatedButton`
+
+---
+
+## 3. Pantalla Mis Habilidades
+
+Presenta una lista de tecnologías e intereses.
+
+Las habilidades disponibles son:
+- Administración de sistemas
+- Oracle Database
+- Oracle JDE EnterpriseOne
+- Flutter
+- Programación 
+- Tecnologia
+El usuario puede seleccionar habilidades como favoritas.
+
+La selección modifica dinámicamente la interfaz mediante `setState()`.
+
+---
+
+## 4. Pantalla Contacto
+
+Permite visualizar diferentes opciones de contacto.
+La pantalla incorpora:
+
+- Correo electrónico.
+- Telefono.
+- Botones.
+- Iconos.
+- Mensajes mediante `SnackBar`.
+
+  # Nuevos widgets utilizados
+Durante esta actividad se incorporaron nuevos widgets de Flutter:
+
+- `ListView`
+- `ListTile`
+- `Card`
+- `CircleAvatar`
+- `Divider`
+- `Image`
+- `Icon`
+- `ElevatedButton`
+- `IconButton`
+- `FloatingActionButton`
+- `Padding`
+- `SizedBox`
+- `Expanded`
+- `Container`
